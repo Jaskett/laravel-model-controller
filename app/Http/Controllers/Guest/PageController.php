@@ -16,6 +16,6 @@ class PageController extends Controller
             "movies" => $movies
         ];
 
-        return view("pages.home", $data);
+        return view("home", $data);
     }
 }
